@@ -1,0 +1,9 @@
+hadoop jar q1.jar fragma.top_ten_movie /user/hduser/fragma/ml-1m/ratings.dat /user/hduser/fragma/ml-1m/movies.dat /user/hduser/fragma/ml-1m/tempq123 /user/hduser/fragma/ml-1m/tempq234
+
+
+hadoop jar q2.jar fragma.q2 /user/hduser/fragma/ml-1m/ratings.dat  /user/hduser/fragma/ml-1m/tempq2 /user/hduser/fragma/ml-1m/finalq2
+
+
+hadoop jar q3.jar fragma.q3 /user/hduser/fragma/ml-1m/ratings.dat /user/hduser/fragma/ml-1m/users.dat /user/hduser/fragma/ml-1m/temp123 /user/hduser/fragma/ml-1m/temp234 /user/hduser/fragma/ml-1m/movies.dat /user/hduser/fragma/ml-1m/final
+
+
